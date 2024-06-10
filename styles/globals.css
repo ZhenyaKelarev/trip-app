@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .container {
+    max-width: 793px;
+  }
+}
+
+@import "./fonts/font.css";
+@import "yet-another-react-lightbox/styles.css";
+
+body {
+  font-family: "San Francisco Pro", sans-serif;
+}
+.icon-highlights {
+  position: relative;
+}
+
+.icon-highlights::before {
+  content: "";
+  z-index: 40;
+  position: absolute;
+  left: -40px;
+  top: 30px;
+  width: 24px;
+  height: 24px;
+  background-color: #9d9da1;
+  background-image: url("/images/icons/stars.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 13px 13px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-motels {
+  position: relative;
+}
+.icon-before {
+  position: relative;
+}
+
+.icon-before::before {
+  z-index: 40;
+  content: attr(data-content);
+  position: absolute;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  left: -40px;
+  top: 5px;
+  width: 24px;
+  height: 24px;
+  background-color: #6b46c1;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-motels::before {
+  content: "";
+  z-index: 40;
+  position: absolute;
+  left: -40px;
+  top: 25px;
+  width: 24px;
+  height: 24px;
+  background-color: #9d9da1;
+  background-image: url("/images/icons/motel.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 13px 13px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-modal {
+  position: relative;
+}
+.icon-modal::before {
+  z-index: 40;
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 30px;
+  width: 24px;
+  height: 24px;
+  background-color: #9d9da1;
+  background-image: url("/images/icons/dot.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px 22px;
+  border-radius: 50%;
+}

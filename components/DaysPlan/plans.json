@@ -1,0 +1,92 @@
+[
+  [
+    {
+      "day": 1,
+      "travel_time": "40m",
+      "activities": [
+        {
+          "name": "Gullfoss Waterfall",
+          "duration": "1h",
+          "type": ["Waterfall"],
+          "curator_pick": true,
+          "img": "/images/higlights1.png"
+        },
+        {
+          "name": "Reykjadalur Valley",
+          "duration": "1h",
+          "type": ["Iconic hike, hot springs"],
+          "curator_pick": true,
+          "img": "/images/higlights2.png"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "travel_time": "1h 40m",
+      "activities": [
+        {
+          "name": "Geysir Thermal Field",
+          "duration": "1h",
+          "type": ["Iconic hike, hot springs"],
+          "curator_pick": true,
+          "img": "/images/higlights3.png"
+        },
+        {
+          "name": "Kerid Crater",
+          "duration": "1h",
+          "type": ["Volcanic crater"],
+          "curator_pick": true,
+          "img": "/images/higlights4.png"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "day": 1,
+      "travel_time": "2h 40m",
+      "activities": [
+        {
+          "name": "Faxi Waterfall",
+          "duration": "1h",
+          "type": ["Waterfall"],
+          "curator_pick": true,
+          "img": "/images/higlights1.png"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "travel_time": "1h",
+      "activities": [
+        {
+          "name": "Laugarvatn Fontana Geothermal Baths",
+          "duration": "1h",
+          "type": ["Hot springs"],
+          "curator_pick": true,
+          "img": "/images/higlights2.png"
+        },
+        {
+          "name": "Strokkur Geyser",
+          "duration": "1h",
+          "type": ["Geyser"],
+          "curator_pick": true,
+          "img": "/images/higlights3.png"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "travel_time": "30m",
+      "activities": [
+        {
+          "name": "Kerið Crater",
+          "duration": "1h",
+          "type": ["Volcanic crater"],
+          "curator_pick": true,
+          "img": "/images/higlights4.png"
+        }
+      ]
+    }
+  ]
+]

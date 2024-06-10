@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Golden Circle Region",
+    "subtitles": ["Geysers", "Waterfalls", "Crater lakes"],
+    "dis": "The Golden Circle in Iceland is a renowned tourist route that encompasses an array of stunning natural landmarks within a relatively short distance from Reykjavík. This scenic loop includes three primary attractions: Þingvellir National Park, where you can explore the rift valley created by the diverging North American and Eurasian tectonic plates and witness the site of Iceland's ancient parliament.",
+    "region_highlights": [
+      {
+        "name": "Gullfoss Waterfall",
+        "duration": "1h",
+        "type": ["Waterfall"],
+        "curator_pick": false,
+        "img": "/images/higlights1.png"
+      },
+      {
+        "name": "Reykjadalur Valley",
+        "duration": "1h",
+        "type": ["Iconic hike, hot springs"],
+        "curator_pick": true,
+        "img": "/images/higlights2.png"
+      },
+      {
+        "name": "Geysir Thermal Field",
+        "duration": "1h",
+        "type": ["Iconic hike, hot springs"],
+        "curator_pick": true,
+        "img": "/images/higlights3.png"
+      },
+      {
+        "name": "Kerid Crater",
+        "duration": "1h",
+        "type": ["Volcanic crater"],
+        "curator_pick": true,
+        "img": "/images/higlights4.png"
+      }
+    ],
+    "motels": [
+      {
+        "name": "Frost and Fire Hotel",
+        "price": 180,
+        "type": ["Boutique hotel"],
+        "rate": 9.1,
+        "curator_pick": true,
+        "img": "/images/hotel1.png"
+      },
+      {
+        "name": "The Greenhouse Hotel",
+        "price": 230,
+        "type": ["Luxury hotel"],
+        "curator_pick": true,
+        "rate": 9.1,
+        "img": "/images/hotel2.png"
+      },
+      {
+        "name": "ION Adventure Hotel",
+        "price": 330,
+        "type": ["Design hotel"],
+        "curator_pick": false,
+        "rate": 8.8,
+        "img": "/images/hotel3.png"
+      },
+      {
+        "name": "Hotel Grimsborgir",
+        "price": 300,
+        "type": ["Luxury hotel"],
+        "curator_pick": true,
+        "rate": 9.5,
+        "img": "/images/hotel4.png"
+      }
+    ]
+  },
+  {
+    "title": "South & Highlands",
+    "subtitles": ["Geysers", "Waterfalls", "Crater lakes"],
+    "dis": "The Golden Circle in Iceland is a renowned tourist route that encompasses an array of stunning natural landmarks within a relatively short distance from Reykjavík. This scenic loop includes three primary attractions: Þingvellir National Park, where you can explore the rift valley created by the diverging North American and Eurasian tectonic plates and witness the site of Iceland's ancient parliament.",
+    "region_highlights": [
+      {
+        "name": "Faxi Waterfall",
+        "duration": "1h",
+        "type": ["Waterfall"],
+        "curator_pick": true,
+        "img": "/images/higlights1.png"
+      },
+      {
+        "name": "Laugarvatn Fontana Geothermal Baths",
+        "duration": "1h",
+        "type": ["Hot springs"],
+        "curator_pick": true,
+        "img": "/images/higlights2.png"
+      },
+      {
+        "name": "Strokkur Geyser",
+        "duration": "1h",
+        "type": ["Geyser"],
+        "curator_pick": false,
+        "img": "/images/higlights3.png"
+      },
+      {
+        "name": "Kerið Crater",
+        "duration": "1h",
+        "type": ["Volcanic crater"],
+        "curator_pick": true,
+        "img": "/images/higlights4.png"
+      }
+    ],
+    "motels": [
+      {
+        "name": "Icelandair Hotel Fludir",
+        "price": 180,
+        "type": ["Hotel"],
+        "rate": 8.6,
+        "curator_pick": true,
+        "img": "/images/hotel1.png"
+      },
+      {
+        "name": "Frost and Fire Hotel",
+        "price": 230,
+        "type": ["Hotel"],
+        "curator_pick": true,
+        "rate": 9.1,
+        "img": "/images/hotel2.png"
+      },
+      {
+        "name": "Hotel Geysir",
+        "price": 250,
+        "type": ["Hotel"],
+        "curator_pick": true,
+        "rate": 9.0,
+        "img": "/images/hotel3.png"
+      },
+      {
+        "name": "ION Adventure Hotel",
+        "price": 330,
+        "type": ["Hotel"],
+        "curator_pick": false,
+        "rate": 8.8,
+        "img": "/images/hotel4.png"
+      }
+    ]
+  }
+]
